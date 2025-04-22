@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>wheather</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="weatherApp.css" />
+</head>
+
+<body>
+   <div id="main">
+    <div id="upperMain">
+        <input   type="text", placeholder="name of city">
+        <button id="searchButton">search</button>
+    </div>
+    <div id="lower-main">
+        <img src="cloudWeather.png"  id="cloud">
+        <p id="temp">22°c</p>
+        <p id="temp1">Bengaluru</p>
+    </div>
+    <div id="last-box">
+        <div id="left-box">
+            <img src="humidity.png" id="humidity">
+            <p id="per"><span>20%</span> <br>Humidity</p>
+
+        </div>
+        <div id="right-box">
+            <img src="wind.png" id ="wind">
+            <p id="km"><span>50 Km/h</span><br>Wind Speed</p>
+        </div>
+    </div>
+   </div>
+</body>
+<script src="weatherApp.js"></script>
+
+</html>

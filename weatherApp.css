@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 0;
+    box-sizing: 0;
+}
+
+body{
+    background-color: rgb(40, 37, 37);
+    
+    
+}
+#main{
+    margin-top: 10%;
+    margin-left: 20%;
+    width: 90%;
+    max-width: 350px;
+    background-color: aqua;
+    background: linear-gradient(25deg,rgb(89, 239, 231),rgb(17, 17, 227));
+    
+    border-radius:10px;
+
+    
+
+}
+#upperMain{
+    
+    /* margin-top: 100px; */
+    padding: 10px;
+    align-items: center;
+    justify-content: space-evenly;
+    
+
+    
+}
+input{
+    margin:  5px;
+    padding: 10px;
+    width: 190px;
+    border-radius: 30px;
+    border: transparent;
+}
+button{
+    border: transparent;
+    height: 30px;
+    width: 90px;
+    border-radius: 30px;
+    /* margin-left: 20px; */
+}
+#lower-main{
+    display:flex;
+    flex-direction:column;
+    margin: 2%;
+    height:30%;
+    width:100%;
+    justify-items:center;
+    align-items:center;
+}
+#cloud{
+    height: 146px;
+    width: 156px;
+}
+
+
+#temp{
+    color: aliceblue;
+    font-weight: 300;
+    font-size: 50px;
+    /* justify-items: center; */
+}
+#temp1{
+    font-weight: 300;
+    color: white;
+    font-size: 50px;
+    /* margin-right: 70%; */
+}
+#last-box{
+    display:flex;
+    height:30%;
+    width:100%;
+    
+}
+#left-box{
+    display:flex;
+    /* justify-content:centre; */
+    align-items:center;
+    justify-items:center;
+    height: 100%;
+    width:45%;
+}
+#humidity{
+    /* margin-top: 16px; */
+    height:30%;
+    padding: 10px;
+    width:30%;
+    
+}
+
+#right-box{
+    display:flex;
+    /* flex-direction:column; */
+    height:100%;
+    width:50%;
+}
+#wind {
+    /* margin-top: 16px; */
+    height:30%;
+    width:30%;
+    padding: 2px;
+    justify-content: center;
+}
+#per{
+    align-content:center;
+    color:white;
+    font-weight:300;
+    padding:5px;
+    
+}
+#per span{
+    font-size:30px
+}
+#km{
+      align-content:center;
+    color:white;
+    font-weight:300;
+    padding:5px;
+    
+}
+#km span{
+    font-size:30px
+}
